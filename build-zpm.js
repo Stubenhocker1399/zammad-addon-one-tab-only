@@ -10,15 +10,15 @@ const files = [
 ];
 
 const source = {
-  name: "one-tab-only",
+  name: 'one-tab-only',
   version: process.env.npm_package_version,
-  vendor: "Stubenhocker",
-  license: "MIT",
-  url: "https://github.com/Stubenhocker1399/zammad-addon-one-tab-only",
+  vendor: 'Stubenhocker',
+  license: 'MIT',
+  url: 'https://github.com/Stubenhocker1399/zammad-addon-one-tab-only',
   description: [
     {
-      "language": "en",
-      "text": "Ensures that there is only one tab of Zammad open."
+      'language': 'en',
+      'text': 'Ensures that there is only one tab of Zammad open.'
     }
   ],
   files: [
@@ -27,9 +27,9 @@ const source = {
 
 for (const file of files) {
   source.files.push({
-    "permission": "644",
-    "location": file.location,
-    "content": fs.readFileSync("one-tab-only.js").toString('base64')
+    permission: '644',
+    location: file.location,
+    content: fs.readFileSync(file.sourceFile).toString('base64')
   });
 }
 
