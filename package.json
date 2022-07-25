@@ -1,0 +1,18 @@
+{
+  "name": "zammad-addon-one-tab-only",
+  "version": "1.0.0",
+  "description": "Ensures that there is only one tab of Zammad open.",
+  "scripts": {
+    "build": "node build-zpm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stubenhocker1399/zammad-addon-one-tab-only.git"
+  },
+  "author": "Stubenhocker1399",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stubenhocker1399/zammad-addon-one-tab-only/issues"
+  },
+  "homepage": "https://github.com/Stubenhocker1399/zammad-addon-one-tab-only#readme"
+}
